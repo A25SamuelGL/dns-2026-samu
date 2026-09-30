@@ -12,7 +12,7 @@ Instala o servidor BIND9 no equipo `darthvader`. Comproba que xa funciona coma s
 Configura o servidor BIND9 no equipo mandalorian para que empregue como reenviador a darthvader pegando no documento de entrega contido do ficheiro /etc/bind/named.conf.options e a saída deste comando: `dig @localhost santiagodecompostela.gal.` Para un correcto funcionamento deberás borrar as root-hints do servidor mandalorian.
 
 Instala unha zona primaria de resolución directa chamada "starwars.lan" e engade os seguintes rexistros de recursos (a maiores dos rexistros NS e SOA imprescindibles):
-
+a
 - Tipo A: darthvader con IP 192.168.20.10
 - Tipo A: skywalker con IP 192.168.20.101
 - Tipo A: skywalker con IP 192.168.20.111
