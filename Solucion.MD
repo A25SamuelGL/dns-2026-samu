@@ -98,9 +98,9 @@ yoda        IN      A       192.168.20.24
 yoda        IN      A       192.168.20.25
 c3p0        IN      A       192.168.20.26
 ;   Alias (CNAME)
-palpatine       IN      CNAME       darthsidious.starwars.lan
+palpatine       IN      CNAME       darthsidious.starwars.lan.
 ;   Rexistro MX (servidor de correo)
-@       IN      MX      10      c3p0.starwars.lan
+@       IN      MX      10      c3p0.starwars.lan.
 ;
 lenda       IN      TXT     "Que a forza te acompanhe"
 ```
