@@ -1,0 +1,10 @@
+zone "starwars.lan" {
+    type secondary;
+    file "/etc/bind/zonas/db.starwars.lan";
+    primaries { 192.168.20.10; };
+};
+zone "20.168.192.in-addr.arpa" {
+        type secondary;
+        file "/etc/bind/zonas/db.192";
+        primaries { 192.168.20.10; };
+};
